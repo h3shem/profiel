@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=El+Messiri:wght@700&display=swap');
+
+*{
+    direction: rtl;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.main h3 , .my_project { 
+    letter-spacing: 0px;
+}
+.infocontect ::after{
+    left: 0px !important;
+    right: 100%;
+}
+.text p {
+    
+    color: #27272780;
+    font-size: 15px;
+}
+
+.viwedetiles1::after {
+    left: 100%;
+    right: 0;
+}
+.closeicon{
+    
+    right: 80%;
+    top: 0.5rem;
+}
+
+.submitmass{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.submitmass:hover{
+    border: 1px solid rgb(48, 151, 219); 
+}
+
+.listurl{
+    
+    display: flex;
+}
+
+
+@media screen and (max-width: 290px) {
+    .listitemservers li {
+        font-size: 0.6rem;
+    }
+}

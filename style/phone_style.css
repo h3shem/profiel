@@ -1,0 +1,233 @@
+@media screen and (max-width: 992px) {
+    header{
+        padding: 0.3rem 1.3rem;
+    }
+   .main{
+    flex-direction: column-reverse;
+    margin: 0 !important; 
+    padding: 0!important;
+   }
+   header{
+    background: rgb(228, 228, 230)
+   }
+   .logo{
+    color: rgb(48, 151, 219);
+   }
+   .main .info{
+    margin-top: 6rem;
+    padding: 2rem!important;
+    width: 100% !important;
+   }
+   .socoil_medie{
+    display: none;
+   }
+   .loder img{
+    width: 50vw;
+   }
+
+   .img{
+    margin: 0 !important; 
+    padding: 0px 1.1rem!important;
+    flex-direction: column;
+    background-color: #272727;
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+   }
+   .imgemain{
+    background-position: top center;
+    padding: 0.9rem;
+   }
+   .nav{
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    z-index: 99;
+    display: none;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    animation:slideInDown;
+    animation-duration: 0.5s; 
+    animation-delay: 0.0s;
+    font-size: 1.2rem;
+   }
+   .nav i{
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: flex-start;
+    text-align: right;
+    pointer-events: none;
+    align-items: center;
+    
+   }
+   .nav span{
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: flex-start;
+    text-align: right;
+    align-items: center;
+    width: 30%;
+    pointer-events: none;
+
+   }
+  
+   .nav a{
+    width: 100%;
+    flex: 1;
+    padding: 0.9rem;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.8em;
+    color: #fff;
+
+    margin: 0.5rem 0rem;
+    font-weight: 300;
+    
+   }
+   .listnav{
+    display: inline-flex !important;
+    font-size: 2.8rem;
+    color: rgb(48, 151, 219);
+    font-weight: 900;
+}
+.socoil_mediephone{
+    width: 100%;
+    position: absolute;
+    background-color: rgb(48, 151, 219);
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 1.2rem;
+}
+.socoil_mediephone a{
+    color: #fff;
+    font-size: 2.3rem;
+    
+}
+.cc{
+  font-size: 2rem !important;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.viewdiv{
+    display: flex !important;
+    font-size: 1rem;
+}
+.hideviwe{
+    display: none !important;
+    transition: all 0.5s ease-in-out;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  
+
+  }
+
+  .anmetiondiv{
+    animation: bounceIn;
+    animation-duration: 0.5s; 
+    animation-delay: 0.0s;;
+  }
+  .rowsev{
+    flex-direction: column;
+  }
+  .servies{
+    height: auto ;
+    padding: 4rem 1.5em;
+  }
+  .servies_colum{
+    width: 100%;
+    margin: 0.5rem auto;
+  }
+  .listitemservers li{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .contect{
+    flex-direction: column;
+    padding: 0px !important;
+    height: auto;
+  }
+  .inpoutmassege{
+    width: 100%;
+    padding: 0px !important;
+  }
+  .infocontect{
+    width: 100%;
+    background: rgb(228, 228, 230);
+
+  }
+  .submitmass{
+    width: 90%;
+
+  }
+  .titemmasge {
+    font-size: 1.2rem;
+  }
+  .infocontect ::after{
+    display: none;
+  }
+  section{
+    height: auto !important;
+  }
+
+  .howme{
+    height: auto;
+  }
+
+  .howme{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+  }
+  .bout img{
+    margin-bottom: 35px;
+  }
+  .text h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+  }
+ 
+  footer{
+    height: auto;
+  }
+  .sectionsite{
+    flex-direction: column;
+  }
+  .sectionsite span{
+    text-align: center;
+}
+.listurl{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.listurl a{
+ padding: 0.8rem;
+}
+.listurl a i{
+  display: none;
+}
+.choselung{
+  margin: 0.8rem;
+  background-color: #fff;
+  width: 50%;
+  color: #272727;
+  font-size: 1.3rem;
+}
+}
